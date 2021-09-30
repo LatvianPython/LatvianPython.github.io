@@ -26,7 +26,7 @@ body {
 
 nav {
   font-weight: 700;
-  font-size: 90%;
+  font-size: 200%;
 }
 
 nav a {
@@ -35,4 +35,14 @@ nav a {
 
 a:hover {
   color: var(--latvian-flag-color)
+}
+
+header {
+  padding-top: var(--header-padding);
+  padding-bottom: var(--header-padding);
+  padding-right: calc(var(--body-padding) * 1);
+  padding-left: calc(var(--body-padding) * 1);
+  margin-right: calc(var(--body-padding) * -1);
+  margin-left: calc(var(--body-padding) * -1);
+  background-color: var(--background-color);
 }
