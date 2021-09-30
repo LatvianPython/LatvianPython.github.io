@@ -1,3 +1,38 @@
+*,::after,::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+html {
+  font-size: 100%;
+}
+
 .current {
-  color: $flag_red;
+  color: var(--latvian-flag-color);
+}
+
+body {
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
+  font-family: var(--font-stack);
+  font-size: calc(var(--font-size) * 2);
+}
+
+nav {
+  font-weight: 700;
+  font-size: 90%;
+}
+
+nav a {
+  margin-left: 7vw;
+}
+
+a:hover {
+  color: var(--latvian-flag-color)
 }
