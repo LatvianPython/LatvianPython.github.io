@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<article>
-    {% include header.html content=page.title %}
-    <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+{% include header.html content=page.title %}
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-    {{ content }}
-</article>
+{{ content }}
