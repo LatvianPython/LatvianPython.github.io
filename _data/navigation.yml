@@ -2,6 +2,6 @@
   link: /
 - name: Blog
   link: /blog/
+  layout: post
 - name: About
   link: /about/
-
