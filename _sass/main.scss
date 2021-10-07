@@ -29,20 +29,37 @@ nav {
   font-size: 200%;
 }
 
-nav a {
-  //margin-left: 7vw;
+
+header {
+  padding-top: calc(var(--header-padding) * .6);
+  padding-bottom: calc(var(--header-padding) * .6);
+  padding-right: calc(var(--body-padding) * 1);
+  padding-left: calc(var(--body-padding) * 1);
+  margin-right: calc(var(--body-padding) * -1);
+  margin-left: calc(var(--body-padding) * -1);
+}
+
+header h1 {
+  background-color: var(--latvian-flag-color);
+  color: var(--background-color);
+  padding-top: calc(var(--header-padding) * .4);
+  padding-bottom: calc(var(--header-padding) * .4);
+  padding-right: inherit;
+  padding-left: inherit;
+  margin-right: inherit;
+  margin-left: inherit;
 }
 
 a:hover {
   color: var(--latvian-flag-color)
 }
 
-header {
-  padding-top: var(--header-padding);
-  padding-bottom: var(--header-padding);
+nav {
+  background-color: var(--background-color);
+  padding-top: var(--nav-padding);
+  padding-bottom: var(--nav-padding);
   padding-right: calc(var(--body-padding) * 1);
   padding-left: calc(var(--body-padding) * 1);
   margin-right: calc(var(--body-padding) * -1);
   margin-left: calc(var(--body-padding) * -1);
-  background-color: var(--background-color);
 }
