@@ -1,7 +1,5 @@
 ---
 layout: post
-author: Rolands Kalvāns
+quote: First post 🇱🇻
 ---
-First post 🇱🇻
-
 Hello, this is the first post.

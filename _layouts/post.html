@@ -2,6 +2,8 @@
 layout: default
 ---
 {% include header.html content=page.title %}
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
+<blockquote>
+    <p>{{ page.date | date_to_string }} - {{ site.author }}</p>
+    <p>{{page.quote}}</p>
+</blockquote>
 {{ content }}
