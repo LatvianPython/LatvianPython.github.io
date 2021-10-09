@@ -24,6 +24,11 @@ body {
   font-size: calc(var(--font-size) * 2);
 }
 
+article {
+  font-size: 75%;
+  margin-bottom: var(--bottom-padding);
+}
+
 article a {
   font-weight: bold;
 }
@@ -36,13 +41,26 @@ article blockquote {
   border-width: var(--border-width);
 }
 
+nav {
+  font-weight: 700;
+  font-size: 200%;
+}
+
+footer {
+  padding-bottom: var(--bottom-padding);
+}
+
 article a:hover {
   text-decoration: underline;
 }
 
-nav {
-  font-weight: 700;
-  font-size: 200%;
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer a  {
+  font-weight: lighter;
+  font-size: 50%;
 }
 
 dt {
@@ -52,6 +70,22 @@ dt {
 
 dd {
   padding-left: 1em;
+}
+
+figure.highlight {
+  font-size: 50%;
+  margin-top: calc(var(--code-block-margin) * .25);
+  margin-bottom: var(--code-block-margin);
+}
+
+code.language-plaintext {
+  background-color: #f8f8f8;
+  color: #dd1144;
+  border-radius: 1vh;
+  font-weight: lighter;
+  border: 0.05vh solid #bfbfbf;
+  padding-left: .2em;
+  padding-right: .2em;
 }
 
 header {
