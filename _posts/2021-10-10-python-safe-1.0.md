@@ -10,7 +10,11 @@ JS Safe 1.0 is a CTF challenge created for
 If you wish to crack the JS version: 
 [JS Safe 1.0](https://storage.googleapis.com/gctf-2018-attachments/7a50da3856dc766fc167a3a9395e86bdcecabefc1f67c53f0b5d4a660f17cd50)
 
-Github page of [Python Safe 1.0](https://github.com/LatvianPython/Python-Safe-1.0)
+Python version: [Python Safe 1.0](https://github.com/LatvianPython/Python-Safe-1.0/blob/master/encrypted_data.py)
+
+<br>
+## If you do not wish to be spoiled on how to solve it, do not continue reading.
+
 
 <br>
 I will not be going into details on how to crack the safe as the existing write-ups 
