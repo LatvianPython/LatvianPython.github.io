@@ -2,6 +2,7 @@
 layout: post
 quote: Python wrapper for Oracle Forms API. 🐍
 syntax_highlighting: true
+title: PyOracle Forms
 ---
 
 Implemented based on a [White Paper](https://www.oracle.com/technetwork/developer-tools/forms/documentation/274326-134740.pdf){:rel="noreferrer"}
