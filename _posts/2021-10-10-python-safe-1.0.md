@@ -40,7 +40,9 @@ the secret information is decrypted.
 
 <br>
 The main function of the Python Safe is almost the same as the JS version, the only real difference
-is the use of ``eval`` instead of ``Function.constructor.apply.apply(x, y)`` 
+is the use of ``eval`` instead of 
+
+``Function.constructor.apply.apply(x, y)`` 
 
 {% highlight python %}
 def check_pw(password):
@@ -67,13 +69,13 @@ def check_pw(password):
 What follows are all the high-level steps run by the safe:
 
 1. add integers to `env` (`2` to `32`, `64`, `128`, `192`, and `224`)
-2. add password hash bytes uses integers from 1. to construct intermediate integers and final hash bytes
-3. construct string versions of lambda functions, and add lambdas to env via `eval` lambda already 
-   in the `env`
-4. construct and execute import statements
-5. hash the user-provided password using the created lambda functions
-6. perform a constant-time comparison on the provided password hash with the stored hash
-7. null out `env` values, while leaving one in to serve as a hint
+1. add password hash bytes uses integers from 1. to construct intermediate integers and final hash bytes
+1. construct string versions of lambda functions, and add lambdas to env via `eval` lambda already 
+  in the `env`
+1. construct and execute import statements
+1. hash the user-provided password using the created lambda functions
+1. perform a constant-time comparison on the provided password hash with the stored hash
+1. null out `env` values, while leaving one in to serve as a hint
 
 
 <br>

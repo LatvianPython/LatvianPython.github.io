@@ -68,6 +68,14 @@ dd {
   padding-left: 1em;
 }
 
+img {
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+
 figure.highlight {
   font-size: 50%;
   margin-top: calc(var(--code-block-margin) * .25);
