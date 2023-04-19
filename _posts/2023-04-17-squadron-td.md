@@ -5,7 +5,7 @@ title: Squadron TD
 ---
 
 
-Around 3 years ago a couple of my friends got me into playing Squadron TD, 
+Around 3 years ago, a couple of my friends got me into playing Squadron TD. 
 Squadron Tower Defense (Squad TD) is a 1-8 player Starcraft 
 II custom map focused around building defences and resource management 
 [[1](https://squadtd.fandom.com/wiki/Squadtd_Wiki)].
